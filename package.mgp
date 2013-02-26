@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="snmp" x="104" y="241">
+        <DependencyLink destination="gui"/>
+        <DependencyLink destination="conn"/>
+    </Package>
+    <Package name="jpcap_arp_kq" x="415" y="291">
+        <DependencyLink destination="conn"/>
+    </Package>
+    <Package name="ICMP" x="260" y="138"/>
+    <Package name="gui" x="70" y="84">
+        <DependencyLink destination="snmp"/>
+        <DependencyLink destination="conn"/>
+    </Package>
+    <Package name="conn" x="521" y="100"/>
+</PackageAnalysis>
